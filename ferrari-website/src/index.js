@@ -11,12 +11,30 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-var vid = document.getElementById("video-background"); 
 
-function playVid() { 
-    vid.play(); 
-} 
+  var vid = document.getElementById("video-background"); 
+  var play = true;
 
-function pauseVid() { 
-    vid.pause(); 
-}
+
+  
+  function playVid() { 
+
+    play = !play; // switch the boolean
+    if (play){ // no need for == true
+      vid.muted = true
+    }
+     else { // no need for if condition
+        
+      vid.muted = false
+    }
+
+   
+   
+    
+
+    
+      
+  } 
+  
+  
+ 

@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import ReactPlayer from 'react-player'
 
+
+
 class Video extends Component {
+
+  
+
+  
 
   
        
@@ -10,7 +16,9 @@ class Video extends Component {
     return (
       <div >
      
-          
+ 
+
+  
 
 
       </div>

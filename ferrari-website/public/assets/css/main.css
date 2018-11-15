@@ -1,13 +1,8 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
-html, body, div, span, applet, object,
+ html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -24,6 +19,19 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+
+	h2{
+
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font-family: "futureFont";
+		vertical-align: baseline;}
+
+
+	
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -139,6 +147,13 @@ input, select, textarea {
 
 		}
 
+		/* CUSTOM FONTS */
+
+		@font-face {
+			font-family: "futureFont";
+			src: url("./fonts/cruiserfortressengraveital.ttf");
+		  }
+		  
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
@@ -1635,4 +1650,20 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+
+		video { 
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -100;
+			transform: translateX(-50%) translateY(-50%);
+		 background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+		  background-size: cover;
+		  transition: 1s opacity;
 		}

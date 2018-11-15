@@ -13,7 +13,6 @@ class App extends Component {
     
      <h1 className="victory">FERRARiROCHER</h1>
      
-     <Video/>
  
         
 

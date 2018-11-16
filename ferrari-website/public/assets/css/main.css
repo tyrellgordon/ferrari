@@ -1,5 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
 
 
  html, body, div, span, applet, object,
@@ -1667,3 +1669,70 @@ input, select, textarea {
 		  background-size: cover;
 		  transition: 1s opacity;
 		}
+
+
+
+		/* CALLANDER  */
+		
+		  
+		body {
+			height: 100%;
+			  margin: 0;
+			margin-top: 10px;
+			  background-repeat: no-repeat;
+			  background-attachment: fixed;
+		  }
+		  
+		  .calendar {
+			
+			background: url("https://c1.staticflickr.com/1/398/32709381126_0a0b051d92_b.jpg") center no-repeat ;
+		   background-size: cover;
+			width: 600px;
+			margin: 0 auto;
+			text-transform: uppercase;
+			border: 15px solid black;
+		  }
+		  
+		  .monthYear {
+			letter-spacing: 25px;
+			padding: 10px;
+			text-align: center;
+			font-family: 'Heebo', sans-serif;
+			font-size: 30pt;
+			 text-shadow: -5px -2px 1px #FF00E0;
+		  }
+		  
+		  .daysOfWeek li{
+			text-align: center;
+			font-family: 'Press Start 2P', cursive;
+			font-size: 14pt;
+			padding: 0;
+		  }
+		  
+		  ul {
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+			padding-left: 0;
+		  }
+		  
+		  li {
+			flex-grow: 1;
+			flex-shrink: 1;
+			flex-basis: 0;
+		  }
+		  
+		  .wk {
+			margin: 0;
+			height: 80px;
+		  }
+		  
+		  .wk li {
+			border: 5px solid #C6FFA1;
+			padding: 5px;
+			font-family: 'Press Start 2P', cursive;
+			font-size: 20pt;
+		  }
+		  
+		  
+		  

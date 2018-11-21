@@ -660,6 +660,14 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			
+		}
+
+		.ferrari img {
+			border-radius: 4px;
+			display: block;
+			position: absolute;
+			top: -20px;
 		}
 
 		.image.left, .image.right {
@@ -1686,7 +1694,7 @@ input, select, textarea {
 		  
 		  .calendar {
 			
-			background: url("https://c1.staticflickr.com/1/398/32709381126_0a0b051d92_b.jpg") center no-repeat ;
+			background: url() center no-repeat ;
 		   background-size: cover;
 			width: 600px;
 			margin: 0 auto;
